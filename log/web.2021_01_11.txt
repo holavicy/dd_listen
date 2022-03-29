@@ -1,0 +1,46 @@
+2021-01-11 11:53:28,359 - tornado.application - ERROR - Uncaught exception GET /api/huaMingCe?page=1&pageSize=10&staffNo=100297&name=%E9%99%88%E6%98%8E%E5%A7%A3 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/huaMingCe?page=1&pageSize=10&staffNo=100297&name=%E9%99%88%E6%98%8E%E5%A7%A3', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 67, in get
+    total_num, df_records = UserModel.hua_ming_ce(page, page_size, staff_no, name)
+TypeError: cannot unpack non-iterable NoneType object
+2021-01-11 11:53:28,377 - tornado.access - ERROR - 500 GET /api/huaMingCe?page=1&pageSize=10&staffNo=100297&name=%E9%99%88%E6%98%8E%E5%A7%A3 (127.0.0.1) 319.15ms
+2021-01-11 13:37:31,940 - tornado.general - WARNING - 400 GET /api/exportHuaMingCe?page=&pageSize=&staffNo=&name= (127.0.0.1): Missing argument getYear
+2021-01-11 13:37:31,940 - tornado.access - WARNING - 400 GET /api/exportHuaMingCe?page=&pageSize=&staffNo=&name= (127.0.0.1) 1.00ms
+2021-01-11 13:37:40,399 - tornado.general - WARNING - 400 GET /api/exportHuaMingCe?page=&pageSize=&staffNo=&name= (127.0.0.1): Missing argument getYear
+2021-01-11 13:37:40,399 - tornado.access - WARNING - 400 GET /api/exportHuaMingCe?page=&pageSize=&staffNo=&name= (127.0.0.1) 0.00ms
+2021-01-11 15:35:55,295 - tornado.application - ERROR - Uncaught exception GET /api/getUserInfo?code=1caada14810d3790b7685296f989a57d (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/getUserInfo?code=1caada14810d3790b7685296f989a57d', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\dd.py", line 14, in get
+    user_info = DDModel.get_user_info(code, access_token)
+  File "F:\workspace\hr_back_end\models\dd.py", line 46, in get_user_info
+    raise TaskErr(1, response)
+common.tool.TaskErr: HttpErr at 1, msg:{'errcode': 60020, 'errmsg': '请参考FAQ：https://open-doc.dingtalk.com/microapp/faquestions/cvbtph。错误原因：访问ip不在白名单之中,request ip=222.186.81.33 appKey(ding27e0amfvxsepglcw)'}
+2021-01-11 15:35:55,310 - tornado.access - ERROR - 500 GET /api/getUserInfo?code=1caada14810d3790b7685296f989a57d (127.0.0.1) 1518.95ms
+2021-01-11 15:46:31,516 - tornado.application - ERROR - Uncaught exception GET /api/getUserInfo?code=55a5e6a946243bc3a3bd608ee979f132 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/getUserInfo?code=55a5e6a946243bc3a3bd608ee979f132', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\dd.py", line 14, in get
+    user_info = DDModel.get_user_info(code, access_token)
+  File "F:\workspace\hr_back_end\models\dd.py", line 46, in get_user_info
+    raise TaskErr(1, response)
+common.tool.TaskErr: HttpErr at 1, msg:{'errcode': 60020, 'errmsg': '请参考FAQ：https://open-doc.dingtalk.com/microapp/faquestions/cvbtph。错误原因：访问ip不在白名单之中,request ip=222.186.81.33 appKey(ding27e0amfvxsepglcw)'}
+2021-01-11 15:46:31,518 - tornado.access - ERROR - 500 GET /api/getUserInfo?code=55a5e6a946243bc3a3bd608ee979f132 (127.0.0.1) 389.96ms
+2021-01-11 15:47:57,028 - tornado.application - ERROR - Uncaught exception GET /api/getUserInfo?code=5e7167a353ae39b9ad86ba04daa3fb08 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/getUserInfo?code=5e7167a353ae39b9ad86ba04daa3fb08', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\dd.py", line 14, in get
+    user_info = DDModel.get_user_info(code, access_token)
+  File "F:\workspace\hr_back_end\models\dd.py", line 46, in get_user_info
+    raise TaskErr(1, response)
+common.tool.TaskErr: HttpErr at 1, msg:{'errcode': 60020, 'errmsg': '请参考FAQ：https://open-doc.dingtalk.com/microapp/faquestions/cvbtph。错误原因：访问ip不在白名单之中,request ip=222.186.81.33 appKey(ding27e0amfvxsepglcw)'}
+2021-01-11 15:47:57,031 - tornado.access - ERROR - 500 GET /api/getUserInfo?code=5e7167a353ae39b9ad86ba04daa3fb08 (127.0.0.1) 1429.19ms

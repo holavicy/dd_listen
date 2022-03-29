@@ -1,0 +1,6 @@
+2021-02-01 10:30:56,289 - tornado.general - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1): Missing argument orgSelectedStr
+2021-02-01 10:30:56,289 - tornado.access - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1) 1.00ms
+2021-02-01 10:31:53,139 - tornado.general - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1): Missing argument orgSelectedStr
+2021-02-01 10:31:53,139 - tornado.access - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1) 1.00ms
+2021-02-01 10:32:55,371 - tornado.general - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1): Missing argument orgSelectedStr
+2021-02-01 10:32:55,374 - tornado.access - WARNING - 400 GET /api/huaMingCe?page=1&pageSize=10&staffNo=&name= (127.0.0.1) 3.00ms

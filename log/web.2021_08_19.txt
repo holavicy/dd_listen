@@ -1,0 +1,1 @@
+2021-08-19 16:59:55,364 - tornado.access - WARNING - 404 GET /api/getAttColumnsVal (127.0.0.1) 9.97ms

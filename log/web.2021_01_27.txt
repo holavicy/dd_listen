@@ -1,0 +1,78 @@
+2021-01-27 15:22:47,988 - tornado.access - WARNING - 404 GET /api/orgList (127.0.0.1) 1.99ms
+2021-01-27 16:12:28,577 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 35, in get
+    df_records = UserModel.get_org_list()
+  File "F:\workspace\hr_back_end\models\user.py", line 263, in get_org_list
+    num = org_dict_item[num]
+UnboundLocalError: local variable 'num' referenced before assignment
+2021-01-27 16:12:28,604 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 295.20ms
+2021-01-27 16:13:10,481 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 16:13:10,504 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 290.22ms
+2021-01-27 16:34:09,159 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 16:34:09,164 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 282.25ms
+2021-01-27 16:34:52,654 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 16:34:52,656 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 291.74ms
+2021-01-27 17:10:21,544 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 17:10:21,547 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 286.23ms
+2021-01-27 17:11:21,331 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 17:11:21,333 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 276.82ms
+2021-01-27 22:38:22,960 - tornado.application - ERROR - Uncaught exception GET /api/orgList (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8083', method='GET', uri='/api/orgList', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\apps\python\lib\site-packages\tornado\web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "F:\workspace\hr_back_end\handlers\user.py", line 37, in get
+    'list': json.loads(df_records)
+  File "D:\apps\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+2021-01-27 22:38:22,961 - tornado.access - ERROR - 500 GET /api/orgList (127.0.0.1) 291.21ms
